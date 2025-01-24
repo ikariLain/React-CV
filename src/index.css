@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-image: url(./Asset/Background_img.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  position: relative;
+}
+
+/* Overlay för bättre läsbarhet */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
