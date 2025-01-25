@@ -1,11 +1,12 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import CV from './components/CV'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* Resten av din apps innehåll kommer här */}
+      <CV />
     </div>
   )
 }
