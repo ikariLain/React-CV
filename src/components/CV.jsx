@@ -17,7 +17,7 @@ function CV() {
       <section className="education-section">
         <h2>Utbildning</h2>
         {data.education.map((edu) => (
-          <div key={edu.id} className="education-item">
+          <div key={edu.id} className="cv-item">
             <h3>{edu.school}</h3>
             <p className="program">{edu.program}</p>
             <p className="period">{edu.period}</p>
@@ -29,7 +29,7 @@ function CV() {
       <section className="experience-section">
         <h2>Arbetslivserfarenhet</h2>
         {data.experience.map((exp) => (
-          <div key={exp.id} className="experience-item">
+          <div key={exp.id} className="cv-item">
             <h3>{exp.company}</h3>
             <p className="role">{exp.role}</p>
             <p className="period">{exp.period}</p>
