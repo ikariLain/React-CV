@@ -2,33 +2,45 @@
   "education": [
     {
       "id": 1,
-      "school": "Chas Academy (Högskola)",
+      "school": "Chas Academy",
       "program": "Fullstack .NET-utvecklare",
       "period": "2023 - Pågående",
       "description": "Utbildning inom modern webbutveckling med fokus på .NET, C#, JavaScript och databaser."
-    },
-    {
-      "id": 2,
-      "school": "Annan Skola",
-      "program": "Annat Program",
-      "period": "2018-2020",
-      "description": "Beskrivning av utbildningen"
     }
   ],
   "experience": [
     {
       "id": 1,
-      "company": "Företag AB",
-      "role": "Utvecklare",
-      "period": "2023-nu",
-      "description": "Arbetsbeskrivning"
+      "company": "Zettle by PayPal",
+      "role": "Kundtjänst",
+      "period": "augusti 2022 - januari 2023",
+      "description": "Arbetade med kundtjänst för svenska och norska marknaden.",
+      "responsibilities": [
+        "Hantering av kundsupport via telefon",
+        "Merförsäljning till befintliga kunder",
+        "Support på både svenska och norska"
+      ]
     },
     {
       "id": 2,
-      "company": "Annat Företag AB",
-      "role": "Junior Utvecklare",
-      "period": "2021-2023",
-      "description": "Arbetsbeskrivning"
+      "company": "Huddinge kommun & Botkyrka kommun",
+      "role": "Hemtjänst",
+      "period": "juni 2021 - september 2021",
+      "description": "Arbetade parallellt i båda kommunerna med omsorg och stöd till vårdtagare."
+    },
+    {
+      "id": 3,
+      "company": "Botkyrka kommun",
+      "role": "Trädgårdsarbete",
+      "period": "juni 2019 - juli 2019",
+      "description": "Säsongsarbete med fokus på parkskötsel och trädgårdsunderhåll."
+    },
+    {
+      "id": 4,
+      "company": "Folkes",
+      "role": "Servitör- och konferensvärd",
+      "period": "april 2019 - juni 2019",
+      "description": "Ansvarade för servering och värdskap vid konferenser och evenemang."
     }
   ]
-} 
+}
