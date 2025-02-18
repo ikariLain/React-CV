@@ -14,7 +14,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Ändrat från Home till Portfolie */}
+        <Route path="/" element={<Home />} /> 
         <Route path="/cv" element={<CV />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
