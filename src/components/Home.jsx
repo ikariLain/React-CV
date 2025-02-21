@@ -2,6 +2,7 @@ import React from 'react';
 import painting from '../assets/painting_for_index.jpg';
 import { hydrateRoot } from 'react-dom/client'
 import Egg from "./EasterEgg.jsx";
+import InputEasterEgg from "./inputEasterEgg.jsx";
 
 
 const Home = () => {
@@ -12,6 +13,9 @@ const Home = () => {
             <img src={painting} alt="Painting for index" /> 
           </div>
           <Egg />
+          <div>
+          <InputEasterEgg />
+          </div>
     </div>    
   
     );
