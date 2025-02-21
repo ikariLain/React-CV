@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import cvData from '../data/cv-data.json';
-import './CV.css';
+import BallonImg from '../assets/Ballon_painting.jpg';
 
 function CV() {
   const [data, setData] = useState(null);
@@ -14,6 +14,12 @@ function CV() {
 
   return (
     <div className="cv-container">
+      <h1>Mitt CV</h1>
+
+      <div className='painting'>
+        <img src={BallonImg} alt="img" />
+      </div>
+
       <section className="education-section">
         <h2>Utbildning</h2>
         {data.education.map((edu) => (
