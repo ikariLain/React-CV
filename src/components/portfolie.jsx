@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './Portfolie.css'
 
 const Portfolie = () => {
     const [projects, setProjects] = useState([])
@@ -9,12 +8,12 @@ const Portfolie = () => {
     useEffect(() => {
         const fetchGitHubProjects = async () => {
             try {
-                // Ersätt 'DITT_GITHUB_ANVÄNDARNAMN' med ditt GitHub användarnamn
+                
                 const response = await fetch('https://api.github.com/users/ikariLain/repos')
                 if (!response.ok) throw new Error("Kunde inte hämta projekt.")
                 const data = await response.json()
                 
-                // Filtrera för att bara få publika repon och sortera efter senast uppdaterade
+                
                 const publicRepos = data
                     .filter(repo => !repo.private)
                     .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
