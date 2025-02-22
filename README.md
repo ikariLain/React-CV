@@ -1,7 +1,7 @@
 # Dynamisk CV-sida Projekt
 
 ## Om Projektet
-Detta projekt handlar om att omvandla en statisk CV-webbplats till en React-applikation. Målet är att skapa en mer dynamisk och underhållbar version av CV-portalen genom att införa moderna webbutvecklingstekniker och React-funktioner.
+Denna uppgift bygger vidare på labb 1 (CV-portal) och i denna ska du utveckla din CV-sida i React. Du kommer behöva skapa en react-app för att det här ska fungera. Räkna därmed att du kommer behöva strukturera om din kod från labb 1.
 
 ## Kravspecifikation
 
