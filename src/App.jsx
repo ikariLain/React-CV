@@ -11,7 +11,7 @@ import CV from "./components/CV";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} /> 
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-    </>
+    </div>
   );
 };
 
