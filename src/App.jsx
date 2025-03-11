@@ -11,7 +11,7 @@ import CV from "./components/CV";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/React-CV/'>
+    <BrowserRouter basename='/React-CV'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} /> 
