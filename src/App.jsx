@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Portfolie from './components/portfolie'
 import NotFound from './components/NotFound'
@@ -11,7 +11,7 @@ import CV from "./components/CV";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/React-CV'>
+    <HashRouter >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} /> 
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
